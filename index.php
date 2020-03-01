@@ -25,7 +25,7 @@
 <script>
     //用户名登陆以后获取用户名
     var username = prompt('请输入用户名');
-    var ws = new WebSocket("ws://39.96.161.22:9502");
+    var ws = new WebSocket("ws://123.56.158.49:9502");
     ws.onopen = function () {
         var message = '{"type":"login","con":"'+username+'"}';
         // console.log(message);
