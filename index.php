@@ -87,8 +87,8 @@
     var player = new Aliplayer({
             "id": "player-con",
             "source": "rtmp://youke.zmrzzj.com/myfiestvideo/video?auth_key=1583069860-0-0-c9191d6e973baaf494f0870771dba50e",
-            "width": "100%",
-            "height": "500px",
+            "width": "70%",
+            "height": "600px",
             "autoplay": true,
             "isLive": true,
             "rePlay": false,
@@ -96,8 +96,9 @@
             "preload": true,
             "controlBarVisibility": "hover",
             "useH5Prism": true
-        }, function(player) {
+        }, function (player) {
             console.log("The player is created");
-        });
+        }
+    );
 </script>
 </html>
